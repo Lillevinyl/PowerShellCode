@@ -1,0 +1,1 @@
+Get-AzRoleAssignment -SignInName gasg@idemitsuno.onmicrosoft.com | FL DisplayName, RoleDefinitionName, Scope

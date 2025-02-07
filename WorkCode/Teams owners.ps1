@@ -1,0 +1,1 @@
+﻿Get-Team | ForEach-Object {Get-TeamUser -GroupId $_.GroupId -Role Owner} | Export-Csv -Path "C:\TeamsOwners.csv" -NoTypeInformation

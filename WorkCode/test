@@ -1,0 +1,21 @@
+<!-- Update source instance name, primaryOwner, secondaryOwner and other parameters as required. -->
+<!-- If you want to create source instance for pilot environment, change isPilot parameter to "true". -->
+<recordsource primaryOwner="svein.gullby" 
+    secondaryOwner="so.user1@contoso.onmicrosoft.com,so.user2@contoso.onmicrosoft.com" 
+    sourceInstanceName="NFS-00011"
+    path="//sacontosodata.files.core.windows.net/nfs-00001"
+    isPilot="true"
+    immutableStorageRetentionDuration="30"
+>
+<!-- Following metadata will be captured at the time of ingestion. -->    
+<!-- You can mark any metadata field as sensitive by setting IsSensitive attribute to true. -->
+<metadata>
+<field>Field1</field>
+<field IsSensitive="true">Field2</field>
+</metadata>
+<!-- Following retention labels will be applicable for this source instance. -->    
+<retentionlabels>
+<retentionlabel>Label1</retentionlabel>
+<retentionlabel>Label2</retentionlabel>
+</retentionlabels>
+</recordsource>

@@ -1,0 +1,1 @@
+Get-PnPMicrosoft365Group -IncludeSiteUrl | Where-Object { $_.Visibility -eq "Private"}

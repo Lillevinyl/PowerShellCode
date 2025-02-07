@@ -1,0 +1,2 @@
+Connect-IPPSSession
+New-ProtectionAlert -Name "Lots of Files Deleted by User" -Category Others -NotifyUser svein.gullby@inpex-idemitsu.no -ThreatType Activity -Operation FileRecycled -Description "Custom alert policy to track deleted files" -AggregationType SimpleAggregation -Timewindow 60 -Threshold 5 -Severity Medium
