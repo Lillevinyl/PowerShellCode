@@ -1,7 +1,8 @@
 #########################################################################
 #                                                                       #
 # Created by: Infotechtion                                              #
-# Note: This script requires PowerShell and PnP PowerShell to work      #
+# Note: This script requires PowerShell and PnP PowerShell to work 
+# Modified by Svein G
 #                                                                       #
 #########################################################################
 
